@@ -1,0 +1,150 @@
+body{
+	overflow-x:hidden; 
+	font-family: 'lato', sans-serif;
+  width: 100%;
+}
+
+.navc{
+	background-color: white;
+	color:#8b4513;
+  padding-right: 80px;
+}
+
+.navc a{
+	color:#8b4513;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+.linklist a{
+  font-size: 16px;
+}
+.links{
+  padding-right: 50px;
+}
+.sidenav{	
+	margin-right:10%;
+}
+
+.next{
+	margin:-0.3% 0 0 0;
+	position:relative;
+	}
+.caro{
+	height: 500px;
+}
+ .icaro{
+	height: 500px;
+} 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139,69,19,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  font-size: 16px;
+}
+
+@media screen and (max-width: 450px) {
+  /*.navhead h4{
+    margin-left: -100px;
+    padding-right: 300px;
+  }*/
+  .linklist li {
+    width: 100%
+    border-bottom: 1px solid rgba(139, 69, 19, 0.7);
+  }
+  .services img{
+  width: 300px !important;
+  height:300px !important;
+  border-radius: 5% !important;
+}
+}
+
+@media screen and (max-width: 650px) {
+  /*.navhead h4{
+    margin-left: -100px;
+    padding-right: 300px;
+  }*/
+  .linklist li {
+    width: 100%;
+    border-bottom: 0.5px solid rgba(139, 69, 19, 0.7);
+  }
+}
+
+
+
+.overlay{
+    background-color: rgba(117, 51, 51, 0.6);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.text{
+	margin-bottom: 5%;
+}
+
+.aboutus{
+	padding-top: 30px;
+  color:#8b4513;
+}
+
+.abouttex h5{
+	line-height: 1.6;
+}
+
+.real {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+}
+@media screen and (max-width: 400px) {
+   .nescafe {
+    height: 290px; 
+    width: 300px; 
+    padding-right: 2%;
+  }
+  .overlay2{
+    background-color: #21212170;
+    width: 330px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    padding: 0 0 0 5%;
+}
+}
+.grey-lighter-hover {
+  color: #616161;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+.overlay2{
+    background-color: #21212170;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    padding: 0 0 0 5%;
+}
+
+.services img{
+	width: 200px;
+	height:200px;
+  border-radius: 5%;
+}
+
+.page-footer{
+	background-color:#1C2331
+}
